@@ -12,27 +12,27 @@ public class Music extends Media {
     }
 
 
-    public String getDuration() {
+    public String get_duration_music() {
         return duration;
     }
 
-    public void setDuration(String duration) {
+    public void set_duration_music(String duration) {
         this.duration = duration;
     }
 
-    public String getArtist() {
+    public String get_artist() {
         return artist;
     }
 
-    public void setArtist(String artist) {
+    public void set_artist(String artist) {
         this.artist = artist;
     }
 
-    public StarRate getNote() {
+    public StarRate get_note() {
         return note;
     }
 
-    public void setNote(StarRate note) {
+    public void set_note(StarRate note) {
         this.note = note;
     }
 }

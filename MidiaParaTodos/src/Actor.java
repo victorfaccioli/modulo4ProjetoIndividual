@@ -1,16 +1,18 @@
-public class Actor {
+public class Actor extends Artist {
 
     String formation;
 
-    public Actor(String formation) {
+    public Actor(String name, String date_of_birth, Awards awards, String gender, String formation) {
+        super(name, date_of_birth, awards, gender);
         this.formation = formation;
     }
 
-    public String getFormation() {
+    public String get_formation() {
         return formation;
     }
 
-    public void setFormation(String formation) {
+    public void set_formation(String formation) {
         this.formation = formation;
     }
 }
+

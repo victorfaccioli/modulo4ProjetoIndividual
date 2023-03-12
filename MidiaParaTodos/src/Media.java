@@ -9,27 +9,27 @@ public class Media {
         this.genre = genre;
     }
 
-    public String getTitle() {
+    public String get_title() {
         return title;
     }
 
-    public void setTitle(String title) {
+    public void set_title(String title) {
         this.title = title;
     }
 
-    public int getYear() {
+    public int get_year() {
         return year;
     }
 
-    public void setYear(int year) {
+    public void set_year(int year) {
         this.year = year;
     }
 
-    public String getMusical_genre() {
+    public String get_musical_genre() {
         return genre;
     }
 
-    public void setMusical_genre(String genre) {
+    public void set_musical_genre(String genre) {
         this.genre = genre;
     }
 }

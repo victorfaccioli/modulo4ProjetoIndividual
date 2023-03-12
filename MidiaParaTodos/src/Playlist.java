@@ -1,22 +1,22 @@
 import java.util.ArrayList;
 
 public class Playlist {
-    int media_atual = 0;
-    int direcao_media;
+    int current_media = 0;
+    int media_direction;
 
-    public int getMedia_atual() {
-        return media_atual;
+    public int get_current_media() {
+        return current_media;
     }
 
-    public void setMedia_atual(int media_atual) {
-        this.media_atual = media_atual;
+    public void set_current_media(int current_media) {
+        this.current_media = current_media;
     }
 
-    public int getDirecao_media() {
-        return direcao_media;
+    public int get_media_direction() {
+        return media_direction;
     }
 
-    public void setDirecao_media(int direcao_media) {
-        this.direcao_media = direcao_media;
+    public void set_media_direction(int media_direction) {
+        this.media_direction = media_direction;
     }
 }

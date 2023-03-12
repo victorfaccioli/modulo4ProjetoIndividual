@@ -2,45 +2,46 @@ public class Artist {
 
     String name;
     String date_of_birth;
-    String awards;
+    Awards awards ;
     String gender;
 
-    public Artist(String name, String date_of_birth, String awards, String gender) {
+    public Artist(String name, String date_of_birth, Awards awards, String gender) {
         this.name = name;
         this.date_of_birth = date_of_birth;
         this.awards = awards;
         this.gender = gender;
     }
 
-    public String getName() {
+    public String get_name() {
         return name;
     }
 
-    public void setName(String name) {
+    public void set_name(String name) {
         this.name = name;
     }
 
-    public String getDate_of_birth() {
+    public String get_date_of_birth() {
         return date_of_birth;
     }
 
-    public void setDate_of_birth(String date_of_birth) {
+    public void set_date_of_birth(String date_of_birth) {
         this.date_of_birth = date_of_birth;
     }
 
-    public String getAwards() {
+    public Awards get_awards() {
         return awards;
     }
 
-    public void setAwards(String awards) {
+    public void set_awards(Awards awards) {
         this.awards = awards;
     }
 
-    public String getGender() {
+    public String get_gender() {
         return gender;
     }
 
-    public void setGender(String gender) {
+    public void set_gender(String gender) {
         this.gender = gender;
     }
+
 }

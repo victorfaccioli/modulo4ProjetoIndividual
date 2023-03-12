@@ -15,15 +15,15 @@ public class Film extends Media {
         this.producer = producer;
     }
 
-    public int getDuration() {
+    public int get_duration_film() {
         return duration;
     }
 
-    public void setDuration(int duration) {
+    public void set_duration_film(int duration) {
         this.duration = duration;
     }
 
-    public String getMovie_type() {
+    public String get_movie_type() {
 
         if(this.duration > 90){
             this.movie_type="Longa";
@@ -33,31 +33,31 @@ public class Film extends Media {
         return movie_type;
     }
 
-    public void setMovie_type(String movie_type) {
+    public void set_movie_type(String movie_type) {
         this.movie_type= movie_type;
     }
 
-    public String[] getCast() {
+    public String[] get_cast() {
         return cast;
     }
 
-    public void setCast(String[] cast) {
+    public void set_cast(String[] cast) {
         this.cast = cast;
     }
 
-    public String getDirector() {
+    public String get_director() {
         return director;
     }
 
-    public void setDirector(String director) {
+    public void set_director(String director) {
         this.director = director;
     }
 
-    public String getProducer() {
+    public String get_producer() {
         return producer;
     }
 
-    public void setProducer(String producer) {
+    public void set_producer(String producer) {
         this.producer = producer;
     }
 }

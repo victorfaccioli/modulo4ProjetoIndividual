@@ -5,33 +5,29 @@ public class MusicPlaylist extends Playlist {
     ArrayList<Music> musics;
 
 
-    public ArrayList<Music> getMusics() {
+    public ArrayList<Music> get_musics() {
         return musics;
     }
 
-    public void setMusics(ArrayList<Music> musics) {
+    public void set_musics(ArrayList<Music> musics) {
         this.musics = musics;
     }
     public void random_music(){
         Collections.shuffle(musics);
     }
 
-    public Music get_atual(){
-        return musics.get(this.media_atual);
-
-    }
     public Music next_music(){
-        if (this.media_atual >= musics.size()) {
-            media_atual = -1;
+        if (this.current_media >= musics.size()) {
+            current_media = -1;
         }
-        this.media_atual++;
-        return musics.get(this.media_atual);
+        this.current_media++;
+        return musics.get(this.current_media);
     }
-    public Music preview_music(){
-        if (this.media_atual <= 0){
-            media_atual = musics.size();
+    public Music previous_music(){
+        if (this.current_media <= 0){
+            current_media = musics.size();
         }
-        this.media_atual--;
-        return musics.get(this.media_atual);
+        this.current_media--;
+        return musics.get(this.current_media);
     }
 }

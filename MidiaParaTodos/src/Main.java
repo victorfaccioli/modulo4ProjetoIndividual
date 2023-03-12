@@ -2,6 +2,8 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
+        Artist artist= new Artist("Victor","30-11-1997", new Awards("Gremmy",2022),"masculino");
+
         Film filme= new Film("Avatar",2022, "Ficição",30, new String[]{"alo","jose"},"Jorge","Cleber");
 
         Music musica = new Music("Leozinho",2020,"Rock","3","Leo",new StarRate(5));
@@ -12,15 +14,19 @@ public class Main {
         midias.add(musica);
         midias.add(musica2);
         midias.add(musica3);
-        playlist.setMusics(midias);
-        playlist.random_music();
 
-        System.out.printf(filme.getCast()[0]+filme.getCast()[1]+"\n");
 
-        System.out.println(filme.getMovie_type());
-        System.out.println(playlist.get_atual().title);
-        System.out.println(playlist.next_music().title);
-        System.out.println("musica.getMidia().getStar()");
+        playlist.set_musics(midias);
+//        playlist.random_music();
+
+
+        System.out.printf("Artista: "+artist.get_name()+"\nData de nascimento: "
+                + artist.get_date_of_birth()
+                +"\nGênero: "+artist.get_gender()
+                +"\nPrêmio: "+artist.get_awards().get_award()+" Ano: "+artist.get_awards().get_year());
+//        System.out.println(playlist.get_current_media());
+//        System.out.println(playlist.next_music().title);
+//        System.out.println("musica.getMidia().getStar()");
 
     }
 }

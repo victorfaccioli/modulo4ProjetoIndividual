@@ -1,15 +1,16 @@
-public class Musician  {
-    String action;
+public class Musician extends Artist  {
+    String actuation;
 
-    public Musician(String action) {
-        this.action = action;
+    public Musician(String name, String date_of_birth, Awards awards, String gender, String actuation) {
+        super(name, date_of_birth, awards, gender);
+        this.actuation = actuation;
     }
 
-    public String getAction() {
-        return action;
+    public String get_actuation() {
+        return actuation;
     }
 
-    public void setAction(String action) {
-        this.action = action;
+    public void set_actuation(String actuation) {
+        this.actuation = actuation;
     }
 }

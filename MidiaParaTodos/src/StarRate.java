@@ -5,11 +5,11 @@ public class StarRate {
         this.star = star;
     }
 
-    public int getStar() {
+    public int get_star() {
         return star;
     }
 
-    public void setStar(int star) {
+    public void set_star(int star) {
         this.star = star;
     }
 
