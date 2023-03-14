@@ -3,70 +3,29 @@
 ## Requisitos
 
 
-    - Mídia
-        -Contém:
-            -Título
-            -Ano
-            -Gênero
-                -Contém
-                    .Getters 
-                    .Setters
-        -Música
-            -Contém:
-                -Duração
-                -Artista
-                -Nota (1 a 5)
-                    -Contém:
-                        .Getters 
-                        .Setters
-        -Filme
-            -Contém:
-                -Duração:
-                -Tipo:(Curta ou Longa)
-                -Elenco:(vetor de atores)
-                -Diretor:
-                -Produtor
-                    -Contém:
-                        -Getters
-                        -Setters
-    -Artista
-        -Contém:
-            -Nome
-            -Data de Nascimento
-            -Premiações
-            -Gênero(MAS/FEM/IND)
-                -Contém:
-                    .Getters
-                    .Setters
-        -Contém:
-            -Ator
-                -Contém:
-                    -Formação(Teatro/Cinema/Outro)
-            -Músico
-                -Contém:
-                    -Atuação(Instrumento ou vocal)
+    Mídia
+        Contém:/-Título /-Ano /-Gênero
+            Música
+                -Contém:/-Duração/-Artista/-Nota
+            Filme
+                -Contém:/-Duração:/-Tipo/-Elenco/-Diretor/-Produtor
+            
+    Artista
+        -Contém:/-Nome/-Data de Nascimento/-Premiações/-Gênero
+            Ator/-Contém:/-Formação
+            Músico/-Contém:/-Atuação
+            
     -Biblioteca de Mídias
-        -Contém:
-            -Mídias
-            -Usuário
-            -Playlists
-                -Contém:
-                    .Getters
-                    .Setters
+        -Contém:/-Mídias/-Usuário/-Playlists
                     .Tocar playlist
 
     -Playlist
-        -Contém:
-            -Mídias
-            -Ordem de Execução
-            -Mídia atual
-                -Contém:
-                    .Getters
-                    .Setters
+        -Contém:/-Mídias/-Ordem de Execução/-Mídia atual
                     .Próxima mídia
                     .Mídia anterios
                     .Mídia alátoria
-
-
-
-    
+                    
+             
+## Como executar:
+    No arquivo Main executar o programa java e seguir as opções que aparece na tela:
+    ![image](https://user-images.githubusercontent.com/114197531/224880047-028a0544-0438-49bf-82c5-4b1e4c662bbd.png)
