@@ -28,4 +28,4 @@
              
 ## Como executar:
     No arquivo Main executar o programa java e seguir as opções que aparece na tela:
-    ![image](https://user-images.githubusercontent.com/114197531/224880047-028a0544-0438-49bf-82c5-4b1e4c662bbd.png)
+    <img src='https://i.postimg.cc/3Rw9gBSq/image.png' border='0' alt='image'/>
